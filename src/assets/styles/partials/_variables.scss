@@ -1,0 +1,14 @@
+$color-oliva: #7f7045;
+$color-blue: #173b67;
+$color-orange: #ce7c2a;
+$color-gray: #444444;
+$color-light-white: #f5f5f5;
+$color-yellow: #ffcc01;
+
+@mixin my-display-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  margin: auto;
+}

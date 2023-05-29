@@ -1,7 +1,8 @@
 <script>
 import HeaderLink from "./HeaderLink.vue";
+import AppSocial from "./AppSocial.vue";
 
-export default { components: { HeaderLink } };
+export default { components: { HeaderLink, AppSocial } };
 </script>
 
 <template>
@@ -11,41 +12,26 @@ export default { components: { HeaderLink } };
         <span><i class="fa-solid fa-envelope"></i>info@example.com</span>
         <span><i class="fa-solid fa-phone"></i>+1(817)901 3377</span>
       </div>
-      <div class="social">
-        <img src="../../public/img/icon_Facebook.png" />
-        <img src="../../public/img/icon_Pinterest.png" />
-        <img src="../../public/img/icon_Twitter.png" />
-        <img src="../../public/img/icon_Linkedin.png" />
-        <img src="../../public/img/icon_Instagram.png" />
-      </div>
+      <AppSocial />
     </div>
   </div>
   <HeaderLink />
 </template>
 
 <style lang="scss" scoped>
+@use "./../assets/styles/partials/variables" as *;
 .top-bar {
-  background-color: #7f7045;
+  background-color: $color-oliva;
   .content-top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1150px;
+    @include my-display-center;
     height: 3.5rem;
-    margin: auto;
   }
 }
 .contacts {
   color: white;
   i {
     padding-inline: 0.6rem;
-    color: #ce7c2a;
-  }
-}
-.social {
-  img {
-    width: 30px;
-    padding-inline: 0.2rem;
+    color: $color-orange;
   }
 }
 </style>

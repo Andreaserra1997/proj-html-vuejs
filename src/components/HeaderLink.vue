@@ -45,13 +45,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "./../assets/styles/partials/variables" as *;
+
 ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1150px;
-  margin: auto;
-  background-color: #f5f5f5;
+  @include my-display-center;
+  background-color: $color-light-white;
   padding: 0.5rem;
 }
 img {
@@ -61,15 +59,15 @@ img {
 li {
   list-style: none;
   a {
-    color: #444444;
+    color: $color-gray;
     text-decoration: none;
     &:hover {
-      color: #ce7c2a;
+      color: $color-orange;
     }
   }
 }
 li:last-child {
-  background-color: #ce7c2a;
+  background-color: $color-orange;
   padding: 0.7rem 0.9rem;
   border-radius: 2rem;
   white-space: nowrap;

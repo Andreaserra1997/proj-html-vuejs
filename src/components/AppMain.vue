@@ -1,7 +1,12 @@
 <script>
-export default {};
+import AppJumbo from "./AppJumbo.vue";
+export default {
+  components: { AppJumbo },
+};
 </script>
 
-<template></template>
+<template>
+  <AppJumbo />
+</template>
 
 <style lang="scss" scoped></style>
