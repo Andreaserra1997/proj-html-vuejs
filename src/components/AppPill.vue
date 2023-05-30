@@ -73,7 +73,8 @@ export default {
     }
     .icon-img {
       background-color: $color-yellow;
-      width: 30%;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       padding: 1.2rem;
     }

@@ -1,5 +1,7 @@
 <script>
-export default {};
+import AppChooseUs from "./AppChooseUs.vue";
+
+export default { components: { AppChooseUs } };
 </script>
 
 <template>
@@ -12,7 +14,8 @@ export default {};
         <img src="/img/dog-icon.png" />
         <span>Choose us</span>
       </div>
-      <div>Why Choose Us?</div>
+      <div class="title">Why Choose Us?</div>
+      <AppChooseUs />
     </div>
   </div>
 </template>
@@ -20,6 +23,7 @@ export default {};
 <style lang="scss" scoped>
 .container {
   display: flex;
+  gap: 3rem;
 }
 .square-img {
   width: 50%;
@@ -29,5 +33,17 @@ export default {};
 }
 .square-text {
   width: 50%;
+  .icon {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    span {
+      padding-left: 0.7rem;
+    }
+  }
+}
+.title {
+  font-size: 2rem;
+  padding: 1.5rem 0 2rem;
 }
 </style>

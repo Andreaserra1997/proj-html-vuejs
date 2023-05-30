@@ -49,7 +49,6 @@ export default {
 
 ul {
   @include my-display-center;
-  background-color: $color-light-white;
   padding: 0.5rem;
 }
 img {
