@@ -56,6 +56,7 @@ p {
   padding: 0.7rem 1rem;
   border-radius: 2rem;
   white-space: nowrap;
+  cursor: pointer;
 }
 .video {
   width: 40px;
@@ -63,5 +64,6 @@ p {
   margin-left: 0.5rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 </style>
