@@ -69,12 +69,13 @@ export default {
       padding-bottom: 1rem;
     }
     p {
-      padding-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      padding-inline: 1rem;
     }
     .icon-img {
       background-color: $color-yellow;
-      width: 60px;
-      height: 60px;
+      width: 55px;
+      height: 55px;
       border-radius: 50%;
       padding: 1.2rem;
     }

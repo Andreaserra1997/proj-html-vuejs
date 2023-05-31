@@ -34,6 +34,8 @@ export default {};
 </template>
 
 <style lang="scss" scoped>
+@use "./../assets/styles/partials/variables" as *;
+
 .background-img {
   background-image: url(./../../public/img/dog-logo.png);
   background-repeat: no-repeat;
@@ -63,7 +65,9 @@ export default {};
     display: flex;
     align-items: center;
     span {
-      padding-left: 1rem;
+      color: $color-oliva;
+      font-size: 0.7rem;
+      padding-left: 0.7rem;
     }
   }
   .title {

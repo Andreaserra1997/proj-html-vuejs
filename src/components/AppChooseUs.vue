@@ -37,8 +37,10 @@ export default {
 <style lang="scss" scoped>
 .chooses {
   display: flex;
+  padding-top: 1rem;
   img {
-    width: 18%;
+    width: 100px;
+    height: 100px;
   }
   .text {
     display: flex;

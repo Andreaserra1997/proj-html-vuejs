@@ -6,7 +6,7 @@ export default { components: { AppPill } };
 <template>
   <div class="background-img">
     <div class="content">
-      <div>Service</div>
+      <div class="title">Service</div>
       <div class="description">
         DogMilo Pet Care Services For Your Best Friends.
       </div>
@@ -36,12 +36,15 @@ export default { components: { AppPill } };
 }
 .content {
   text-align: center;
+  .title {
+    color: $color-oliva;
+  }
 }
 .content:first-child {
   padding-top: 3rem;
 }
 .description {
-  padding: 2rem 0 2.5rem;
+  padding: 1.5rem 0 2.5rem;
   font-size: 2rem;
   width: 400px;
   margin: auto;

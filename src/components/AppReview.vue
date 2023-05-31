@@ -81,7 +81,12 @@ export default {
   max-width: 1150px;
   margin: auto;
   padding-top: 4rem;
+  img {
+    width: 20px;
+  }
   span {
+    color: $color-oliva;
+    font-size: 0.7rem;
     padding-left: 0.7rem;
   }
 }
@@ -142,6 +147,7 @@ export default {
   margin: auto;
   gap: 1rem;
   padding-top: 1rem;
+  padding-bottom: 10rem;
   img {
     width: 40px;
     background-color: $color-orange;

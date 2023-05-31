@@ -21,6 +21,8 @@ export default { components: { AppChooseUs } };
 </template>
 
 <style lang="scss" scoped>
+@use "./../assets/styles/partials/variables" as *;
+
 .container {
   display: flex;
   gap: 3rem;
@@ -37,7 +39,12 @@ export default { components: { AppChooseUs } };
     display: flex;
     align-items: center;
     padding-top: 3rem;
+    img {
+      width: 50px;
+    }
     span {
+      color: $color-oliva;
+      font-size: 0.7rem;
       padding-left: 0.7rem;
     }
   }
