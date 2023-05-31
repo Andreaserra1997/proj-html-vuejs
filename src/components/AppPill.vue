@@ -81,4 +81,7 @@ export default {
     }
   }
 }
+.pill:hover {
+  background-color: $color-oliva;
+}
 </style>

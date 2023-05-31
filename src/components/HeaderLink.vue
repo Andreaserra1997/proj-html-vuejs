@@ -74,4 +74,7 @@ li:last-child {
     color: white;
   }
 }
+li:last-child:hover {
+  background-color: $color-blue;
+}
 </style>

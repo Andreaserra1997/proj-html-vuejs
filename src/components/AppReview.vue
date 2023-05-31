@@ -154,4 +154,7 @@ export default {
     padding: 0.5rem;
   }
 }
+.arrow img:hover {
+  background-color: $color-oliva;
+}
 </style>
