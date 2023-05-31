@@ -4,11 +4,11 @@ export default {};
 
 <template>
   <div class="social">
-    <img src="../../public/img/icon_Facebook.png" />
-    <img src="../../public/img/icon_Pinterest.png" />
-    <img src="../../public/img/icon_Twitter.png" />
-    <img src="../../public/img/icon_Linkedin.png" />
-    <img src="../../public/img/icon_Instagram.png" />
+    <img src="/img/icon_Facebook.png" />
+    <img src="/img/icon_Pinterest.png" />
+    <img src="/img/icon_Twitter.png" />
+    <img src="/img/icon_Linkedin.png" />
+    <img src="/img/icon_Instagram.png" />
   </div>
 </template>
 
